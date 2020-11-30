@@ -1,0 +1,65 @@
+.center {
+    position: absolute;
+    height: auto;
+    width: auto;
+    margin: -100px 0 0 -200px;
+    top: 50%;
+    left: 50%;
+    border: #888888 solid 2px;
+    border-radius: 2%;
+    background-color: #fafafa;
+}
+.input-row {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+    height: 50px;
+}
+input {
+    width: 250px;
+    border: #888888 solid 2px;
+}
+.first-row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.second-row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.third-row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.fourth-row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.fifth-row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.gray {
+    padding: 10px;
+}
+.light-gray{
+    padding: 10px;
+}
+.blue {
+    padding: 10px;
+}
+#equal {
+    background-color: #4287f5;
+    color: #ffffff;
+    
+}
+button {
+    font-size: large;
+    width: 50px;
+    height: 30px;
+    border: unset;
+    border-radius: 5%;
+}
+button:hover {
+    box-shadow: 2px 5px #888888;
+}
